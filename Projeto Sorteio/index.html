@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <script>
+
+        let p = ["Geromel", "Gabriel", "Zulaine", "João", "Basílio"]
+
+        function sortear(){
+            let np = p.length;
+            let ns = Math.floor(Math.random() * np);
+            document.getElementById("d").innerHTML = p[ns];
+        }
+
+    </script>
+
+    <style>
+        body{
+            background-color: rgb(167, 101, 167);
+        }
+        .botao{
+            padding: 4px;
+            background-color: rgb(30, 199, 143);
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            width: 200px;
+            height: 80px;
+            margin: auto;
+        }
+
+
+        .d1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="di">
+        <div class="d1">
+            <h1 id="d"></h1>
+            <button class="botao" onclick="sortear()"> SORTEAR </button>
+        </div>
+    </div>    
+
+</body>
+
+</html>
