@@ -1,3 +1,4 @@
+package IFRS_logica2022;
 
 /*
 Escreva um programa que faça a leitura da idade de 2 homens e 2 mulheres (supondo que as idades do mesmo sexo serão diferentes). 
@@ -11,7 +12,7 @@ mulher mais nova, mulher mais velha, homem mais novo e homem mais velho
 
 import java.util.Scanner;
 
-public class list2_exercise24 {
+public class lista3_ex24 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

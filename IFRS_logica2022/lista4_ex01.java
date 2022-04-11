@@ -1,12 +1,14 @@
+package IFRS_logica2022;
+
 import java.util.Scanner;
 
-public class lista4_ex1 {
-    public static void main (String[] args) {
+public class lista4_ex01 {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("\nDigite um valor inteiro: ");
         int numeroInteiroN = scanner.nextInt();
-        
+
         int i = 0, somaDeTodos = 0;
         while (i <= numeroInteiroN) {
             somaDeTodos = somaDeTodos + i;
