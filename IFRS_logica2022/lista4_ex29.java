@@ -20,17 +20,18 @@ public class lista4_ex29 {
                 segundoAlgarismo = 0;
             }
 
-            if (segundoAlgarismo == 2 && terceiroAlgarismo == 1 || segundoAlgarismo == 4 && terceiroAlgarismo == 1
+            if (segundoAlgarismo == 2 && terceiroAlgarismo == 1 
+                    || segundoAlgarismo == 4 && terceiroAlgarismo == 1
                     || segundoAlgarismo == 6 && terceiroAlgarismo == 1
                     || segundoAlgarismo == 8 && terceiroAlgarismo == 1
-                    || segundoAlgarismo == 0 && terceiroAlgarismo == 1) {
+                    || segundoAlgarismo == 0 && terceiroAlgarismo == 1
+               ) {
                 System.out.println("\n----- PAUSA -----\n");
             }
 
             produtoAlgarismos = primeiroAlgarismo * segundoAlgarismo * terceiroAlgarismo;
 
-            System.out.print(numero + " - " + primeiroAlgarismo + "*" + segundoAlgarismo + "*" + terceiroAlgarismo
-                    + " = " + produtoAlgarismos + "\n");
+            System.out.print(numero + " - " + primeiroAlgarismo + "*" + segundoAlgarismo + "*" + terceiroAlgarismo + " = " + produtoAlgarismos + "\n");
         }
     }
 }
