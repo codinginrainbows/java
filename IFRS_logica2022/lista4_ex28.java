@@ -21,8 +21,10 @@ public class lista4_ex28 {
             cedula1real = saque / 1;
             saque = saque % 1;
 
-            System.out.println(cedula10reais + " nota(s) de R$10.\n" + cedula5reais + " nota(s) de R$5.\n" + cedula1real
-                    + " nota(s) de R$1.");
+            System.out.println(cedula10reais + " nota(s) de R$10.\n" + 
+                               cedula5reais + " nota(s) de R$5.\n" + 
+                               cedula1real + " nota(s) de R$1."
+                               );
         }
 
         scanner.close();
