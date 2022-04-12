@@ -29,8 +29,10 @@ public class lista4_ex26 {
         }
 
         // desempate
-        if (candidatoA == candidatoB || candidatoA == candidatoC || candidatoB == candidatoA || candidatoB == candidatoC
-                || candidatoC == candidatoA || candidatoC == candidatoB) {
+        if (candidatoA == candidatoB || candidatoA == candidatoC ||
+            candidatoB == candidatoA || candidatoB == candidatoC ||
+            candidatoC == candidatoA || candidatoC == candidatoB
+           ) {
             System.out.print("\nCompute o voto desempate: ");
 
             voto = scanner.nextInt();
